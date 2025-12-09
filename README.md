@@ -2,12 +2,11 @@
 
 [![Role](https://img.shields.io/badge/Role-Technical%20Program%20Manager-blue)]()
 
-[![Focus](https://img.shields.io/badge/Focus-Strategic%20Finance%20%26%20FP%26A-purple)]()
-![TPM](https://img.shields.io/badge/Technical%20Program%20Management-TPM-blue)
-![CapEx](https://img.shields.io/badge/Capital%20Asset%20Management-CapEx%20Governance-orange)
-![Strategic Finance](https://img.shields.io/badge/Strategic%20Financial%20Planning-Analytics%20%26%20Modeling-purple)
-![Manufacturing Ops](https://img.shields.io/badge/Manufacturing-Ops%20%26%20Readiness-green)
-![Supply Chain](https://img.shields.io/badge/Supply%20Chain-Planning%20%26%20Execution-yellowgreen)
+![Focus: TPM](https://img.shields.io/badge/Focus-Technical%20Program%20Management%20(TPM)-1f6feb?style=for-the-badge)
+![Focus: Strategic Finance](https://img.shields.io/badge/Focus-Strategic%20Financial%20Planning-8250df?style=for-the-badge)
+![Focus: CapEx](https://img.shields.io/badge/Focus-Capital%20Asset%20Management%20(CapEx)-bf3989?style=for-the-badge)
+![Focus: Manufacturing Ops](https://img.shields.io/badge/Focus-Manufacturing%20Operations-0969da?style=for-the-badge)
+![Focus: Supply Chain](https://img.shields.io/badge/Focus-Supply%20Chain%20Operations-218bff?style=for-the-badge)
 
 [![Location](https://img.shields.io/badge/Base-Sunnyvale%2C%20CA-green)]()
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sourabh232-informational?logo=linkedin)](https://www.linkedin.com/in/sourabh232/)
