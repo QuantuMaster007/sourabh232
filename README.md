@@ -1,20 +1,48 @@
-# 👋 Hi, I'm Sourabh Tarodekar
+<div align="center">
 
-[![Role](https://img.shields.io/badge/Role-Technical%20Program%20Manager-blue)]()
+### 👋 Hi, I'm **Sourabh Tarodekar**
 
-![Focus: TPM](https://img.shields.io/badge/Focus-Technical%20Program%20Management%20(TPM)-1f6feb?style=for-the-badge)
-![Focus: Strategic Finance](https://img.shields.io/badge/Focus-Strategic%20Financial%20Planning-8250df?style=for-the-badge)
-![Focus: CapEx](https://img.shields.io/badge/Focus-Capital%20Asset%20Management%20(CapEx)-bf3989?style=for-the-badge)
-![Focus: Manufacturing Ops](https://img.shields.io/badge/Focus-Manufacturing%20Operations-0969da?style=for-the-badge)
-![Focus: Supply Chain](https://img.shields.io/badge/Focus-Supply%20Chain%20Operations-218bff?style=for-the-badge)
+#### Senior Technical Program Manager • Strategic Finance & CapEx • Manufacturing & Supply Chain Ops
 
-[![Location](https://img.shields.io/badge/Base-Sunnyvale%2C%20CA-green)]()
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sourabh232-informational?logo=linkedin)](https://www.linkedin.com/in/sourabh232/)
-[![Email](https://img.shields.io/badge/Email-sourabh232%40gmail.com-red)](mailto:sourabh232@gmail.com)
+<p>
+  <img src="https://img.shields.io/badge/TPM-Technical%20Program%20Management-1f6feb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Strategic%20Finance-Planning%20%26%20Analytics-8250df?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CapEx-Capital%20Asset%20Management-bf3989?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Manufacturing-Ops%20%26%20Readiness-0969da?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Supply%20Chain-Operations%20%26%20Planning-218bff?style=for-the-badge" />
+</p>
 
-Senior Technical Program Manager (7+ years) specializing in Technical program management (TPM), strategic financial planning and capital asset management (CapEx), overseeing the deployment and optimization of complex hardware and AI-adjacent infrastructure. 
-My focus is on designing and implementing models and processes that ensure **clear, predictable, and scalable** financial decision-making for capital expenditures.
+---
 
+</div>
+
+### 🧩 What I Do
+
+I’m a **Senior Technical Program Manager (7+ years)** specializing in:
+
+- 🛰️ **Technical program management (TPM)** for complex hardware and AI-adjacent systems  
+- 📊 **Strategic financial planning & capital asset management (CapEx)** across multimillion-dollar portfolios  
+- 🏭 **Manufacturing & supply chain operations**, from NPI and ramp to tooling, readiness, and optimization  
+
+I focus on designing and implementing **models, tools, and processes** that make capital-intensive decisions more  
+**clear, predictable, and scalable**—so engineering, finance, and operations can move fast *without* losing control.
+
+---
+
+### 📍 Location & Contact
+
+<p>
+  <img src="https://img.shields.io/badge/Location-Sunnyvale%2C%20CA-0ea5e9?style=flat-square" />
+  <a href="https://linkedin.com/in/sourabh232">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=flat-square&logo=linkedin" />
+  </a>
+  <a href="mailto:sourabh232@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-eb4034?style=flat-square&logo=gmail" />
+  </a>
+  <a href="https://github.com/sourabh232">
+    <img src="https://img.shields.io/badge/GitHub-Profile-000000?style=flat-square&logo=github" />
+  </a>
+</p>
 
 ---
 
