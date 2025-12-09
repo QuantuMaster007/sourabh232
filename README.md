@@ -31,7 +31,7 @@ My focus is on designing and implementing models and processes that ensure **cle
 | **Strategic Finance** | Capital Allocation, Cost Optimization, TCO Analysis, Investment Case Modeling, Vendor Risk Analysis |
 | **Reporting & Automation** | Tableau/Excel Dashboards, PowerQuery, Variance Engines, KPI Reporting, Self-Serve Analytics |
 | **Planning Systems** | Anaplan (Model Building & Rollout), Adaptive Planning, SAP |
-| **Data & Analytics** | Advanced Excel, Tableau, SQL (basic) |
+| **Data & Analytics** | Advanced Excel, Tableau, SQL |
 | **Operations & CapEx** | CapEx Governance, Spend Controls, Supplier Analytics, NPI Financial Alignment |
 | **Soft Skills** | Executive Communication, Structured Thinking, Cross-Functional Leadership, Problem Solving |
 
