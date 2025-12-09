@@ -41,7 +41,7 @@ I build models, systems, and processes that make financial decisions **clear, pr
 > I use these repos to showcase how I approach real-world Strategic Finance, FP&A, and TPM problems.
 
 ### 1️⃣ CapEx Forecasting Engine
-**Repo:** [`capex-forecasting-engine`](https://github.com/your-username/capex-forecasting-engine)  
+**Repo:** [`capex-forecasting-engine`](https://github.com/QuantuMaster007/capex-forecasting-engine.git)  
 End-to-end CapEx forecasting toolkit: driver-based model for tools, fixtures, and ramp, with scenarios, payback, and NPV/IRR analysis.
 
 - Multi-year CapEx plan with ramp curves and depreciation
@@ -51,7 +51,7 @@ End-to-end CapEx forecasting toolkit: driver-based model for tools, fixtures, an
 ---
 
 ### 2️⃣ Sales Forecasting Models
-**Repo:** [`sales-forecasting-models`](https://github.com/your-username/sales-forecasting-models)  
+**Repo:** [`sales-forecasting-models`](https://github.com/QuantuMaster007/sales-forecasting-models.git)  
 Sales forecasting using **Regression, ARIMA, and Random Forest**, plus practical GTM frameworks.
 
 - Pipeline-based forecasting (stage-weighted)
@@ -71,7 +71,7 @@ A reusable template for **driver-based P&L / OpEx / CapEx planning**.
 ---
 
 ### 4️⃣ Scenario Planning Toolkit
-**Repo:** [`scenario-planning-toolkit`](https://github.com/your-username/scenario-planning-toolkit)  
+**Repo:** [`scenario-planning-toolkit`](https://github.com/QuantuMaster007/scenario-planning-toolkit.git)  
 A lightweight toolkit for building and comparing multiple financial scenarios.
 
 - Base / Upside / Downside frameworks
@@ -81,7 +81,7 @@ A lightweight toolkit for building and comparing multiple financial scenarios.
 ---
 
 ### 5️⃣ BvA & Dashboard Automation
-**Repo:** [`bva-dashboard-automation`](https://github.com/your-username/bva-dashboard-automation)  
+**Repo:** [`bva-dashboard-automation`](https://github.com/QuantuMaster007/bva-dashboard-automation.git)  
 Automated BvA and KPIs using **Excel + PowerQuery + Tableau**.
 
 - BvA engine to reconcile forecast vs actuals
