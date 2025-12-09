@@ -6,7 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sourabh232-informational?logo=linkedin)](https://www.linkedin.com/in/sourabh232/)
 [![Email](https://img.shields.io/badge/Email-sourabh232%40gmail.com-red)](mailto:sourabh232@gmail.com)
 
-Senior Technical Program Manager (7+ years) specializing in strategic financial planning and capital asset management (CapEx), overseeing the deployment and optimization of complex hardware and AI-adjacent infrastructure. 
+Senior Technical Program Manager (7+ years) specializing in Technical program management (TPM), strategic financial planning and capital asset management (CapEx), overseeing the deployment and optimization of complex hardware and AI-adjacent infrastructure. 
 My focus is on designing and implementing models and processes that ensure **clear, predictable, and scalable** financial decision-making for capital expenditures.
 
 
