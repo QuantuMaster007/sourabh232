@@ -6,8 +6,9 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sourabh232-informational?logo=linkedin)](https://www.linkedin.com/in/sourabh232/)
 [![Email](https://img.shields.io/badge/Email-sourabh232%40gmail.com-red)](mailto:sourabh232@gmail.com)
 
-Technical Program Manager with 7+ years of experience operating as a **Strategic Finance & Operations leader** across complex hardware and AI-adjacent programs.  
-I build models, systems, and processes that make financial decisions **clear, predictable, and scalable**.
+Senior Technical Program Manager (7+ years) specializing in strategic financial planning and capital asset management (CapEx), overseeing the deployment and optimization of complex hardware and AI-adjacent infrastructure. 
+My focus is on designing and implementing models and processes that ensure **clear, predictable, and scalable** financial decision-making for capital expenditures.
+
 
 ---
 
@@ -16,7 +17,7 @@ I build models, systems, and processes that make financial decisions **clear, pr
 - Translate **engineering + operational reality → financial insight** for leadership
 - Build **driver-based models, long-range plans, OpEx/CapEx forecasts, and scenario frameworks**
 - Design **self-serve dashboards and automation** so people spend less time chasing spreadsheets
-- Partner across **Engineering, Finance, HR, Supply Chain, Procurement, and Accounting**
+- Partner across **Engineering, Finance, Supply Chain, Procurement, and CM/OEMs**
 
 ---
 
@@ -25,7 +26,7 @@ I build models, systems, and processes that make financial decisions **clear, pr
 | **Category** | **Skills** |
 |--------------|------------|
 | **FP&A** | Annual Planning, Forecasting, Budgeting, BvA, Long-Range Planning |
-| **Financial Modeling** | Driver-Based Models, OpEx/CapEx Models, Scenario & Sensitivity Analysis, NPV/IRR, Unit Economics, Cash-Flow Modeling, Equity & Compensation Models |
+| **Financial Modeling** | Driver-Based Models, OpEx/CapEx Models, Scenario & Sensitivity Analysis, NPV/IRR, Unit Economics, Cash-Flow Modeling |
 | **Sales Forecasting** | Regression, ARIMA, Random Forest, Pipeline Forecasting, Lead-Based Forecasting, Historical Trend Modeling |
 | **Strategic Finance** | Capital Allocation, Cost Optimization, TCO Analysis, Investment Case Modeling, Vendor Risk Analysis |
 | **Reporting & Automation** | Tableau/Excel Dashboards, PowerQuery, Variance Engines, KPI Reporting, Self-Serve Analytics |
