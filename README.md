@@ -39,7 +39,7 @@ I focus on designing and implementing **models, tools, and processes** that make
   <a href="mailto:sourabh232@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-eb4034?style=flat-square&logo=gmail" />
   </a>
-  <a href="https://github.com/sourabh232">
+  <a href="https://github.com/QuantuMaster007/sourabh232.git">
     <img src="https://img.shields.io/badge/GitHub-Profile-000000?style=flat-square&logo=github" />
   </a>
 </p>
