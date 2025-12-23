@@ -85,14 +85,6 @@ End-to-end CapEx forecasting toolkit: driver-based model for tools, fixtures, an
 
 ---
 
-### 2️⃣ Sales Forecasting Models
-**Repo:** [`sales-forecasting-models`](https://github.com/QuantuMaster007/sales-forecasting-models.git)  
-Sales forecasting using **Regression, ARIMA, and Random Forest**, plus practical GTM frameworks.
-
-- Pipeline-based forecasting (stage-weighted)
-- Historical + time-series ARIMA modeling
-- Random Forest models using multiple demand drivers
-
 2️⃣ **Supply Chain Control Tower**
 **Repo:** [`supply-chain-control`](https://github.com/QuantuMaster007/supply-chain-control.git)
 An executive **end-to-end supply chain governance** + interactive **Power BI control tower** dashboard to surface late-risk, shortage exposure, and recovery actions.
