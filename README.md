@@ -86,7 +86,7 @@ End-to-end CapEx forecasting toolkit: driver-based model for tools, fixtures, an
 ---
 
 2️⃣ **Supply Chain Control Tower**
-**Repo:** [`supply-chain-control`](https://github.com/QuantuMaster007/supply-chain-control.git)
+**Repo:** [`supply-chain-control`](https://github.com/QuantuMaster007/supply-chain-control.git)  
 An executive **end-to-end supply chain governance** + interactive **Power BI control tower** dashboard to surface late-risk, shortage exposure, and recovery actions.
 
 * **Executive KPI suite:** OTIF, Past Due $, Commit Slip, Reschedule Rate, Expedite Spend, Quality Holds
