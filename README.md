@@ -93,6 +93,17 @@ Sales forecasting using **Regression, ARIMA, and Random Forest**, plus practical
 - Historical + time-series ARIMA modeling
 - Random Forest models using multiple demand drivers
 
+2️⃣ **Supply Chain Control Tower**
+**Repo:** [`supply-chain-control`](https://github.com/QuantuMaster007/supply-chain-control.git)
+An executive **end-to-end supply chain governance** + interactive **Power BI control tower** dashboard to surface late-risk, shortage exposure, and recovery actions.
+
+* **Executive KPI suite:** OTIF, Past Due $, Commit Slip, Reschedule Rate, Expedite Spend, Quality Holds
+* **Supplier performance drilldowns:** heatmaps + pareto/treemap to isolate top late-$ drivers
+* **Commit health & volatility tracking:** reschedule churn + lead time drift to predict misses early
+* **Inbound logistics view:** mode/carrier/lane performance + expedite burn (if data available)
+* **Readiness & shortage early-warning:** time-phased coverage (next 6 weeks) + critical-path hotlist
+* **Case-study portfolio:** 5 realistic stories showing root cause → actions → measurable recovery outcomes
+
 ---
 
 ### 3️⃣ FP&A Driver-Based Planning Template
