@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Get Support</title>
+  <meta name="description" content="Support and contact page for Sourabh's portfolio projects." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+  <div style="max-width: 980px; margin: 0 auto; padding: 34px 26px 60px;">
+    <a href="../index.html" style="display:inline-block; margin-bottom: 18px;">← Back to Home</a>
+
+    <h1 style="margin: 0 0 8px; font-size: 44px; letter-spacing: -0.6px;">Get Support</h1>
+    <p style="margin: 0 0 18px; color: #6b7280; font-size: 16px;">
+      Questions about my dashboards, data model, or case studies? Use the options below.
+    </p>
+
+    <hr class="rule" />
+
+    <!-- Contact cards -->
+    <div class="cards" style="grid-template-columns: repeat(3, minmax(0,1fr));">
+      <a class="card" href="mailto:you@email.com?subject=Portfolio%20Support%20Question">
+        <h3>Email</h3>
+        <p>Best for detailed questions and feedback.</p>
+      </a>
+
+      <a class="card" href="https://www.linkedin.com/in/YOURHANDLE/" target="_blank" rel="noreferrer">
+        <h3>LinkedIn</h3>
+        <p>Quick message or networking.</p>
+      </a>
+
+      <a class="card" href="https://github.com/quantumaster007" target="_blank" rel="noreferrer">
+        <h3>GitHub</h3>
+        <p>Open an issue or review source code.</p>
+      </a>
+    </div>
+
+    <!-- What to include -->
+    <section class="card" style="margin-top: 16px;">
+      <h2 style="margin-top:0;">What to include in your message</h2>
+      <ul class="bullets">
+        <li><b>Which page/project</b> you’re referring to (ex: “Customer Dashboard”).</li>
+        <li><b>What you expected</b> vs <b>what you saw</b>.</li>
+        <li><b>Screenshot</b> (if something looks off).</li>
+        <li><b>Filters</b> you selected (supplier/program/date).</li>
+      </ul>
+    </section>
+
+    <!-- FAQ -->
+    <section class="card">
+      <h2 style="margin-top:0;">FAQ</h2>
+
+      <h3 style="margin-bottom: 6px;">Why don’t I see real company data?</h3>
+      <p style="margin-top:0; color:#374151;">
+        All dashboards use <b>sanitized or sample data</b>. Metrics and logic are real, but no confidential data is shared.
+      </p>
+
+      <h3 style="margin-bottom: 6px;">Can you share the Tableau / Power BI file?</h3>
+      <p style="margin-top:0; color:#374151;">
+        If it’s a public sample, I can share. If it’s proprietary, I’ll share screenshots + model details instead.
+      </p>
+
+      <h3 style="margin-bottom: 6px;">Can you customize this dashboard for my dataset?</h3>
+      <p style="margin-top:0; color:#374151;">
+        Yes — I can align KPI definitions, build a dimensional model, and create a reusable template (weekly/monthly).
+      </p>
+    </section>
+
+    <!-- Known issues / roadmap -->
+    <section class="card">
+      <h2 style="margin-top:0;">Known issues / roadmap (optional)</h2>
+      <ul class="bullets">
+        <li>✅ Add screenshots + data dictionary for each dashboard.</li>
+        <li>🟡 Add “search” across pages (client-side index).</li>
+        <li>🟡 Add downloadable sample dataset (CSV).</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <div style="margin-top: 28px; color:#6b7280;">
+      <small>Last updated: <span id="d"></span></small>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("d").textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
