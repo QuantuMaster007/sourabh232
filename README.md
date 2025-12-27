@@ -56,17 +56,13 @@ I focus on designing and implementing **models, tools, and processes** that make
 
 ## 📊 Skills Matrix
 
-| **Category** | **Skills** |
-|--------------|------------|
-| **FP&A** | Annual Planning, Forecasting, Budgeting, BvA, Long-Range Planning |
-| **Financial Modeling** | Driver-Based Models, OpEx/CapEx Models, Scenario & Sensitivity Analysis, NPV/IRR, Unit Economics, Cash-Flow Modeling |
-| **Sales Forecasting** | Regression, ARIMA, Random Forest, Pipeline Forecasting, Lead-Based Forecasting, Historical Trend Modeling |
-| **Strategic Finance** | Capital Allocation, Cost Optimization, TCO Analysis, Investment Case Modeling, Vendor Risk Analysis |
-| **Reporting & Automation** | Tableau/Excel Dashboards, PowerQuery, Variance Engines, KPI Reporting, Self-Serve Analytics |
-| **Planning Systems** | Anaplan (Model Building & Rollout), Adaptive Planning, SAP |
-| **Data & Analytics** | Advanced Excel, Tableau, SQL |
-| **Operations & CapEx** | CapEx Governance, Spend Controls, Supplier Analytics, NPI Financial Alignment |
-| **Soft Skills** | Executive Communication, Structured Thinking, Cross-Functional Leadership, Problem Solving |
+| Category | Skills |
+|---|---|
+| FP&A | Annual Planning, Forecasting, Budgeting, BvA, Long-Range Planning |
+| Financial Modeling | Driver-Based Models, OpEx/CapEx Models, Scenario Analysis, NPV/IRR |
+| Data & Analytics | Advanced Excel, Tableau, SQL |
+| Operations & CapEx | CapEx Governance, Spend Controls, Supplier Analytics, NPI Financial Alignment |
+| Soft Skills | Executive Communication, Structured Thinking, Cross-Functional Leadership |
 
 ---
 
