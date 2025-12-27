@@ -16,7 +16,6 @@
 
 </div>
 
-### 🧩 What I Do
 
 I’m a **Senior Technical Program Manager (7+ years)** specializing in:
 
