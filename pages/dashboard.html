@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Customer Dashboard</title>
+  <meta name="description" content="Dashboard documentation: KPIs, screenshots, data model, and usage." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+  <div style="max-width: 980px; margin: 0 auto; padding: 34px 26px 60px;">
+    <a href="../index.html" style="display:inline-block; margin-bottom: 18px;">← Back to Home</a>
+
+    <h1 style="margin: 0 0 8px; font-size: 44px; letter-spacing: -0.6px;">Customer Dashboard</h1>
+    <p style="margin: 0 0 18px; color: #6b7280; font-size: 16px;">
+      A documentation-style overview of my KPI dashboards (Supply Chain Control Tower / CapEx / Ops reporting).
+      This page shows what’s measured, how the data is structured, and what decisions it enables.
+    </p>
+
+    <hr class="rule" />
+
+    <!-- Quick links -->
+    <div class="cards" style="grid-template-columns: repeat(3, minmax(0, 1fr));">
+      <a class="card" href="#" target="_blank" rel="noreferrer">
+        <h3>Live Demo</h3>
+        <p>Add a link to Tableau Public / Power BI publish / HTML dashboard.</p>
+      </a>
+      <a class="card" href="#" target="_blank" rel="noreferrer">
+        <h3>GitHub Repo</h3>
+        <p>Add the repo link where the dataset + model lives.</p>
+      </a>
+      <a class="card" href="../pages/support.html">
+        <h3>Questions / Support</h3>
+        <p>How to interpret KPIs, request features, or contact me.</p>
+      </a>
+    </div>
+
+    <!-- What it solves -->
+    <section class="card" style="margin-top: 16px;">
+      <h2 style="margin-top:0;">What this dashboard solves</h2>
+      <ul class="bullets">
+        <li><b>Single source of truth</b> for operational health: delivery performance, backlog risk, expedite spend, and quality holds.</li>
+        <li><b>Faster weekly business reviews</b> by replacing manual spreadsheets with standardized KPI tiles + drilldowns.</li>
+        <li><b>Actionability</b>: highlights top drivers (parts/suppliers/programs) and shows where to focus.</li>
+      </ul>
+    </section>
+
+    <!-- KPI tiles -->
+    <section class="card">
+      <h2 style="margin-top:0;">KPI tiles (example)</h2>
+      <p style="color:#374151; margin-top: 0;">
+        These are the standard top-level KPIs (you can adjust to match your actual dashboard).
+      </p>
+
+      <div style="overflow:auto;">
+        <table style="width:100%; border-collapse: collapse; font-size: 14px;">
+          <thead>
+            <tr style="text-align:left;">
+              <th style="padding:10px; border-bottom:1px solid #e5e7eb;">KPI</th>
+              <th style="padding:10px; border-bottom:1px solid #e5e7eb;">Definition</th>
+              <th style="padding:10px; border-bottom:1px solid #e5e7eb;">Why it matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;"><b>OTIF %</b></td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">On-time AND in-full delivery rate.</td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">Measures true customer delivery performance.</td>
+            </tr>
+            <tr>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;"><b>Past Due $</b></td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">Open qty × unit price where need-by &lt; today.</td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">Quantifies backlog risk in dollars.</td>
+            </tr>
+            <tr>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;"><b>Expedite Spend</b></td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">Freight cost where expedite_flag = true.</td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">Shows cost of schedule recovery.</td>
+            </tr>
+            <tr>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;"><b>Avg Commit Slip</b></td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">Delivery date − promise date (avg days).</td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">Tracks reliability of supplier commits.</td>
+            </tr>
+            <tr>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;"><b>Reschedule Rate</b></td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">% lines with reschedule_count &gt; 0.</td>
+              <td style="padding:10px; border-bottom:1px solid #f3f4f6;">Signals planning churn and instability.</td>
+            </tr>
+            <tr>
+              <td style="padding:10px;"><b>Quality Hold Rate</b></td>
+              <td style="padding:10px;">% lines with quality_hold_flag = true.</td>
+              <td style="padding:10px;">Captures blocked inventory due to quality issues.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="card">
+      <h2 style="margin-top:0;">Screenshots</h2>
+      <p style="margin-top: 0; color:#374151;">
+        Add screenshots to <code>docs/images/</code> (or <code>assets/</code>) and reference them here.
+      </p>
+
+      <div class="cards" style="grid-template-columns: repeat(2, minmax(0,1fr));">
+        <div class="card" style="box-shadow:none;">
+          <h3>Overview / KPI Tiles</h3>
+          <p>High-level health + trends for WBR/MBR.</p>
+          <!-- Example image path -->
+          <!-- <img src="../docs/images/dashboard_overview.png" alt="Dashboard overview" style="width:100%; border-radius: 12px; border: 1px solid #e5e7eb;"> -->
+        </div>
+
+        <div class="card" style="box-shadow:none;">
+          <h3>Driver Drilldown</h3>
+          <p>Top late-$ drivers by supplier / part / program.</p>
+          <!-- <img src="../docs/images/dashboard_drilldown.png" alt="Dashboard drilldown" style="width:100%; border-radius: 12px; border: 1px solid #e5e7eb;"> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Data model -->
+    <section class="card">
+      <h2 style="margin-top:0;">Data model (simple)</h2>
+      <p style="margin-top: 0; color:#374151;">
+        Describe your tables and relationships briefly so it looks “real” and credible.
+      </p>
+      <ul class="bullets">
+        <li><b>FactSupply</b>: one row per PO line / supply line (need-by date, promise date, qty, price, expedite flag, quality hold).</li>
+        <li><b>DimDate</b>: calendar dates for time intelligence (weekly/monthly trends).</li>
+        <li><b>DimSupplier</b> / <b>DimPart</b> (optional): master data for slicing.</li>
+      </ul>
+      <p style="color:#6b7280; margin-bottom:0;">
+        Example relationship: <code>DimDate[Date] → FactSupply[need_by_date]</code> (many-to-one).
+      </p>
+    </section>
+
+    <!-- How to use -->
+    <section class="card">
+      <h2 style="margin-top:0;">How to use (WBR flow)</h2>
+      <ol style="margin: 0; padding-left: 18px; color:#374151;">
+        <li>Start with KPI tiles: identify if OTIF or Past Due $ is off-track.</li>
+        <li>Use trends: confirm if issue is new or persistent.</li>
+        <li>Drill into drivers: supplier/part/program breakdown.</li>
+        <li>Log actions: expedite / reschedule / supplier escalation.</li>
+      </ol>
+    </section>
+
+    <!-- Footer -->
+    <div style="margin-top: 28px; color:#6b7280;">
+      <small>Last updated: <span id="d"></span></small>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("d").textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
