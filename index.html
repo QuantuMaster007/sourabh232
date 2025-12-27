@@ -2,142 +2,294 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sourabh — Portfolio Docs</title>
-  <meta name="description" content="Portfolio documentation-style site." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sourabh Tarodekar — Portfolio</title>
+  <meta name="description" content="TPM / Ops Program Manager portfolio: dashboards, CapEx, supply chain, NPI." />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-  <!-- Sidebar -->
-  <aside class="sidebar">
-    <div class="brand">
-      <div class="brand-mark">s</div>
-      <div class="brand-name">sourabh</div>
-    </div>
+  <div class="app">
+    <!-- SIDEBAR -->
+    <aside class="sidebar" aria-label="Sidebar">
+      <div class="card card--sidebar">
+        <div class="sidebar-top">
+          <div class="avatar">
+            <!-- Put your avatar at: assets/images/avatar.png -->
+            <img src="assets/images/avatar.png" alt="Sourabh avatar" onerror="this.style.display='none'; this.parentElement.classList.add('avatar--fallback');" />
+            <div class="avatar-fallback">ST</div>
+          </div>
 
-    <nav class="nav" aria-label="Primary">
-      <a class="nav-item active" href="./">
-        <span class="icon icon-home"></span>
-        <span>Home</span>
-      </a>
+          <div class="idblock">
+            <h1 class="name">Sourabh Tarodekar</h1>
+            <p class="role">Technical Program Manager • Ops / Hardware</p>
+          </div>
+        </div>
 
-      <a class="nav-item" href="pages/getting-started.html">
-        <span class="icon icon-flag"></span>
-        <span>Getting Started</span>
-      </a>
+        <div class="sidebar-actions">
+          <button class="btn btn--ghost" id="toggleContact" type="button">
+            <span class="dot"></span>
+            <span id="toggleContactText">Show Contacts</span>
+            <span class="chev" aria-hidden="true">▾</span>
+          </button>
 
-      <a class="nav-item" href="pages/dashboard.html">
-        <span class="icon icon-chart"></span>
-        <span>Customer Dashboard</span>
-      </a>
+          <a class="btn btn--primary" href="assets/Sourabh_Tarodekar_Resume.pdf" target="_blank" rel="noreferrer">
+            Download Resume
+          </a>
+        </div>
 
-      <a class="nav-item" href="pages/support.html">
-        <span class="icon icon-user"></span>
-        <span>Get Support</span>
-      </a>
+        <div class="contact" id="contactPanel" hidden>
+          <div class="contact-row">
+            <div class="icon">✉</div>
+            <div>
+              <div class="label">Email</div>
+              <a class="value" href="mailto:you@email.com">you@email.com</a>
+            </div>
+          </div>
 
-      <a class="nav-item" href="pages/data-hosting.html">
-        <span class="icon icon-shield"></span>
-        <span>Data Hosting</span>
-      </a>
+          <div class="contact-row">
+            <div class="icon">☎</div>
+            <div>
+              <div class="label">Phone</div>
+              <a class="value" href="tel:+1XXXXXXXXXX">+1 (XXX) XXX-XXXX</a>
+            </div>
+          </div>
 
-      <div class="nav-divider"></div>
+          <div class="contact-row">
+            <div class="icon">📍</div>
+            <div>
+              <div class="label">Location</div>
+              <div class="value">San Francisco Bay Area, CA</div>
+            </div>
+          </div>
 
-      <a class="nav-item" href="pages/api.html">
-        <span class="icon icon-api"></span>
-        <span>API Reference</span>
-        <span class="external" aria-hidden="true">↗</span>
-      </a>
-    </nav>
+          <div class="contact-row">
+            <div class="icon">🔗</div>
+            <div>
+              <div class="label">Links</div>
+              <div class="value links">
+                <a href="https://github.com/quantumaster007" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/YOURHANDLE/" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+            </div>
+          </div>
 
-    <div class="sidebar-footer">
-      <small>© <span id="y"></span> Sourabh</small>
-    </div>
-  </aside>
-
-  <!-- Main -->
-  <div class="main">
-    <!-- Topbar -->
-    <header class="topbar">
-      <div class="search">
-        <span class="search-icon" aria-hidden="true">⌕</span>
-        <input id="searchInput" type="search" placeholder="Start typing to search..." />
+          <div class="social">
+            <a class="pill" href="https://github.com/quantumaster007" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="pill" href="https://www.linkedin.com/in/YOURHANDLE/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="pill" href="mailto:you@email.com">Email</a>
+          </div>
+        </div>
       </div>
+    </aside>
 
-      <div class="top-actions">
-        <a class="btn btn-dark" href="pages/contact.html">CREATE AN ACCOUNT</a>
-        <a class="btn btn-light" href="pages/contact.html">TALK TO US</a>
-      </div>
-    </header>
+    <!-- MAIN -->
+    <main class="main">
+      <div class="card card--main">
+        <!-- TOP NAV -->
+        <nav class="tabs" aria-label="Primary navigation">
+          <button class="tab active" type="button" data-target="about">About</button>
+          <button class="tab" type="button" data-target="resume">Resume</button>
+          <button class="tab" type="button" data-target="portfolio">Portfolio</button>
+          <button class="tab" type="button" data-target="blog">Blog</button>
+          <button class="tab" type="button" data-target="contact">Contact</button>
+        </nav>
 
-    <!-- Content -->
-    <main class="content">
-      <section class="hero">
-        <div class="hero-left">
-          <h1>Documentation</h1>
-          <p class="subtitle">Guides and quickstarts for integrating Sourabh’s projects.</p>
-        </div>
+        <!-- ABOUT -->
+        <section class="panel active" id="about">
+          <header class="panel-head">
+            <h2>About Me</h2>
+            <div class="accent"></div>
+          </header>
 
-        <div class="hero-right" aria-hidden="true">
-          <!-- Simple decorative “chips” illustration (SVG) -->
-          <svg width="240" height="160" viewBox="0 0 240 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.95">
-              <path d="M65 45c0-6 5-11 11-11h40c6 0 11 5 11 11v30c0 6-5 11-11 11H76c-6 0-11-5-11-11V45z" fill="#6D28D9"/>
-              <circle cx="88" cy="60" r="5" fill="#fff" opacity="0.9"/>
-              <path d="M150 20c0-6 5-11 11-11h35c6 0 11 5 11 11v28c0 6-5 11-11 11h-35c-6 0-11-5-11-11V20z" fill="#EC4899"/>
-              <circle cx="172" cy="34" r="5" fill="#fff" opacity="0.9"/>
-              <path d="M150 95c0-6 5-11 11-11h45c6 0 11 5 11 11v30c0 6-5 11-11 11h-45c-6 0-11-5-11-11V95z" fill="#F97316"/>
-              <circle cx="176" cy="110" r="5" fill="#fff" opacity="0.9"/>
-              <path d="M35 95c0-6 5-11 11-11h40c6 0 11 5 11 11v26c0 6-5 11-11 11H46c-6 0-11-5-11-11V95z" fill="#7C3AED"/>
-              <circle cx="58" cy="108" r="5" fill="#fff" opacity="0.9"/>
-            </g>
-          </svg>
-        </div>
-      </section>
+          <p class="lead">
+            I’m a Technical Program Manager / Operations Program Manager with experience driving execution across
+            hardware/manufacturing programs—CapEx governance, supply chain analytics, and KPI operating rhythms.
+          </p>
 
-      <hr class="rule" />
+          <p class="muted">
+            I build systems that turn messy operational data into decisions: dashboards for WBR/MBR, variance models,
+            risk heatmaps, and repeatable governance mechanisms that improve predictability and reduce churn.
+          </p>
 
-      <section class="doc">
-        <p>
-          This is your portfolio as a documentation-style site: clean navigation on the left,
-          a searchable header, and sections that explain your projects like a product.
-        </p>
+          <h3 class="subhead">What I’m Doing</h3>
 
-        <h2>Start here</h2>
-        <div class="cards">
-          <a class="card" href="pages/getting-started.html">
-            <h3>Getting Started</h3>
-            <p>Quick overview of who you are + what to explore first.</p>
-          </a>
+          <div class="grid grid--cards">
+            <article class="mini">
+              <div class="mini-icon">🧭</div>
+              <div>
+                <h4>Program Execution</h4>
+                <p>EVT/DVT/PVT readiness, milestone tracking, cross-functional alignment, risk management.</p>
+              </div>
+            </article>
 
-          <a class="card" href="pages/dashboard.html">
-            <h3>Dashboards</h3>
-            <p>Control tower, CapEx, KPI templates, screenshots, outcomes.</p>
-          </a>
+            <article class="mini">
+              <div class="mini-icon">💰</div>
+              <div>
+                <h4>CapEx / Forecasting</h4>
+                <p>Driver-based forecasting, variance analysis, scenario planning, spend controls.</p>
+              </div>
+            </article>
 
-          <a class="card" href="pages/api.html">
-            <h3>Case Studies</h3>
-            <p>Problem → approach → metrics → artifacts.</p>
-          </a>
-        </div>
-      </section>
-    </main>
-  </div>
+            <article class="mini">
+              <div class="mini-icon">📦</div>
+              <div>
+                <h4>Supply Chain Analytics</h4>
+                <p>OTIF, past due $, expedite spend, commit slip, supplier/part drilldowns.</p>
+              </div>
+            </article>
 
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
+            <article class="mini">
+              <div class="mini-icon">📊</div>
+              <div>
+                <h4>Dashboards & Automation</h4>
+                <p>Power BI / Tableau / Excel models that replace manual reporting with reliable metrics.</p>
+              </div>
+            </article>
+          </div>
 
-    // Simple “search”: highlights sidebar items that match your input
-    const input = document.getElementById("searchInput");
-    const items = Array.from(document.querySelectorAll(".nav-item"));
-    input.addEventListener("input", () => {
-      const q = input.value.trim().toLowerCase();
-      items.forEach(a => {
-        const txt = a.textContent.toLowerCase();
-        a.style.display = !q || txt.includes(q) ? "flex" : "none";
-      });
-    });
-  </script>
-</body>
-</html>
+          <h3 class="subhead">Highlights</h3>
+          <ul class="list">
+            <li>Built WBR-ready KPI scorecards and governance rhythms for complex operations.</li>
+            <li>Delivered data-driven visibility for leadership: risk $, backlog $, and execution health.</li>
+            <li>Experienced in semiconductor/hardware environments and cross-site stakeholders.</li>
+          </ul>
+        </section>
+
+        <!-- RESUME -->
+        <section class="panel" id="resume">
+          <header class="panel-head">
+            <h2>Resume</h2>
+            <div class="accent"></div>
+          </header>
+
+          <div class="two-col">
+            <div>
+              <h3 class="subhead">Experience</h3>
+
+              <div class="timeline">
+                <div class="t-item">
+                  <div class="t-dot"></div>
+                  <div class="t-body">
+                    <div class="t-title">Technical Program Manager — Applied Materials</div>
+                    <div class="t-meta">2024 — 2025 • Semiconductor Manufacturing / NPI</div>
+                    <ul class="list compact">
+                      <li>Owned program cadence, KPI reporting, and executive readouts for hardware programs.</li>
+                      <li>Improved operational visibility using dashboards and standard governance templates.</li>
+                      <li>Coordinated cross-functional execution across engineering, ops, and suppliers.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="t-item">
+                  <div class="t-dot"></div>
+                  <div class="t-body">
+                    <div class="t-title">Manufacturing / Operations Roles — Prior Experience</div>
+                    <div class="t-meta">Earlier • Operations, Process, Continuous Improvement</div>
+                    <ul class="list compact">
+                      <li>Supported manufacturing execution, process optimization, and supplier coordination.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="subhead">Education</h3>
+              <div class="timeline">
+                <div class="t-item">
+                  <div class="t-dot"></div>
+                  <div class="t-body">
+                    <div class="t-title">MBA / MS Business Analytics — (Your School)</div>
+                    <div class="t-meta">Year • Concentration</div>
+                  </div>
+                </div>
+                <div class="t-item">
+                  <div class="t-dot"></div>
+                  <div class="t-body">
+                    <div class="t-title">BS Mechanical Engineering — (Your School)</div>
+                    <div class="t-meta">Year</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="subhead">Skills</h3>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Program Management</span>
+                  <span class="muted">90%</span>
+                </div>
+                <div class="bar"><div class="fill" style="width:90%"></div></div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Dashboards (Power BI / Tableau)</span>
+                  <span class="muted">85%</span>
+                </div>
+                <div class="bar"><div class="fill" style="width:85%"></div></div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Excel / Financial Modeling</span>
+                  <span class="muted">88%</span>
+                </div>
+                <div class="bar"><div class="fill" style="width:88%"></div></div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>SQL / Data Analysis</span>
+                  <span class="muted">75%</span>
+                </div>
+                <div class="bar"><div class="fill" style="width:75%"></div></div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-top">
+                  <span>Supply Chain / Manufacturing</span>
+                  <span class="muted">82%</span>
+                </div>
+                <div class="bar"><div class="fill" style="width:82%"></div></div>
+              </div>
+
+              <h3 class="subhead">Tools</h3>
+              <div class="chips">
+                <span class="chip">Power BI</span>
+                <span class="chip">Tableau</span>
+                <span class="chip">Excel</span>
+                <span class="chip">SQL</span>
+                <span class="chip">Jira</span>
+                <span class="chip">Confluence</span>
+                <span class="chip">SAP</span>
+                <span class="chip">Python</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="panel" id="portfolio">
+          <header class="panel-head">
+            <h2>Portfolio</h2>
+            <div class="accent"></div>
+          </header>
+
+          <div class="filters">
+            <button class="filter active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="dashboard">Dashboards</button>
+            <button class="filter" type="button" data-filter="forecasting">Forecasting</button>
+            <button class="filter" type="button" data-filter="automation">Automation</button>
+          </div>
+
+          <div class="grid grid--portfolio" id="portfolioGrid">
+            <!-- Card 1 -->
+            <a class="work" href="https://github.com/quantumaster007" target="_blank" rel="noreferrer"
+               data-tags="dashboard automation">
+              <div class="thumb">
+                <img src="assets/images/project-1.png" alt="Supply Chain Control Tower" onerror="this.style.display='none'; this.parentElement.classList.add('thumb--fallback');" />
+                <div class="thumb-fallback">Dashboard</div>
+              </div>
+              <d
