@@ -6,7 +6,6 @@
 
 <p>
   <img src="https://img.shields.io/badge/TPM-Technical%20Program%20Management-1f6feb?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Strategic%20Finance-Planning%20%26%20Analytics-8250df?style=for-the-badge" />
   <img src="https://img.shields.io/badge/CapEx-Capital%20Asset%20Management-bf3989?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Manufacturing-Ops%20%26%20Readiness-0969da?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Supply%20Chain-Operations%20%26%20Planning-218bff?style=for-the-badge" />
