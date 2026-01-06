@@ -1,87 +1,81 @@
-# 👋 Hi, I’m Sourabh Tarodekar (QuantuMaster007)
+<div align="center">
 
-**Technical Program Manager | Hardware Programs + Manufacturing Ops | CapEx • Supply Chain • Data & Automation**
+# 🌌 Sourabh Tarodekar
+**Technical Program Manager | Hardware Programs | CapEx Automation**
 
-I bridge the gap between engineering execution and operational excellence. I specialize in leading **end-to-end hardware programs**, managing **CapEx governance**, and driving **factory-readiness** through data-driven automation and AI/ML modeling.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sourabh232/)
+[![Portfolio](https://img.shields.io/badge/Live_Demo-Factory_Readiness-green?style=for-the-badge&logo=streamlit)](https://capexfactoryreadiness-3t3ngaxnz2fvjf8jqsxkvg.streamlit.app/)
 
 ---
 
-## 🚀 Featured Projects & Command Centers
+### 💡 The Vision
+> *Bridging the gap between engineering execution and factory-readiness through automated governance, capital planning, and data-driven risk mitigation.*
 
-<table>
-<tr>
-<td width="50%" valign="top">
+</div>
 
-### 🏭 CapEx Factory Readiness
-Factory readiness gating, critical path tracking, and CI-generated evidence packs.
-<br/>
-[**Repo**](https://github.com/QuantuMaster007/CapEx_Factory_Readiness) | [**Live Demo**](https://capexfactoryreadiness-3t3ngaxnz2fvjf8jqsxkvg.streamlit.app/)
+---
 
-<img src="https://raw.githubusercontent.com/QuantuMaster007/CapEx_Factory_Readiness/main/docs/images/dashboard_preview.gif" width="100%" alt="Dashboard Preview"/>
+## 🚀 Command Centers (Featured Projects)
 
-</td>
-<td width="50%" valign="top">
-
-### 🤖 GPU Cluster Capacity Simulator
-AI infra capacity planning, utilization modeling, and cost-aware fragmentation analysis.
-<br/>
-[**Repo**](https://github.com/QuantuMaster007/GPU-Cluster-Capacity-Simulator)
-
-<img src="https://raw.githubusercontent.com/QuantuMaster007/GPU-Cluster-Capacity-Simulator/main/docs/images/dashboard_preview.gif" width="100%" alt="Simulator Preview"/>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 📊 Supply Chain Control Tower
-Exec-level shortage risk monitoring, late part recovery, and operational health tracking.
-<br/>
-[**Repo**](https://github.com/QuantuMaster007/supply-chain-control)
-
-<img src="https://raw.githubusercontent.com/QuantuMaster007/supply-chain-control/main/docs/images/dashboard_preview.gif" width="100%" alt="Supply Chain Preview"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 Mini MLOps Platform
-End-to-end pipeline: Data → Training → Registry → Containerized Serving → Monitoring.
-<br/>
-[**Repo**](https://github.com/QuantuMaster007/Mini-ML_Ops_Platform)
-
-<img src="https://raw.githubusercontent.com/QuantuMaster007/Mini-ML_Ops_Platform/main/docs/images/dashboard_preview.gif" width="100%" alt="MLOps Preview"/>
-
-</td>
-</tr>
+<table border="0">
+ <tr>
+    <td>
+      <b style="font-size: 20px">🏭 CapEx Factory Readiness</b><br>
+      <i>Real-time gating, critical path tracking, and CI-generated evidence packs.</i><br><br>
+      <a href="https://github.com/QuantuMaster007/CapEx_Factory_Readiness"><b>View Repository →</b></a>
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/QuantuMaster007/CapEx_Factory_Readiness/main/docs/images/dashboard_preview.gif" width="400" alt="Factory Dashboard" />
+    </td>
+ </tr>
+ <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/QuantuMaster007/GPU-Cluster-Capacity-Simulator/main/docs/images/dashboard_preview.gif" width="400" alt="GPU Simulator" />
+    </td>
+    <td>
+      <b style="font-size: 20px">🤖 GPU Cluster Capacity Simulator</b><br>
+      <i>AI infra planning, utilization modeling, and cost-aware fragmentation analysis.</i><br><br>
+      <a href="https://github.com/QuantuMaster007/GPU-Cluster-Capacity-Simulator"><b>View Repository →</b></a>
+    </td>
+ </tr>
 </table>
 
 ---
 
-## 🧩 Specialized Toolkits
+## 🧩 Specialized Toolsets
 
-* **Financial Ops:** [CapEx Forecasting Engine](https://github.com/QuantuMaster007/capex-forecasting-engine) • [Budget vs Actual Automation](https://github.com/QuantuMaster007/bva-dashboard-automation) • [FP&A Driver Planning](https://github.com/QuantuMaster007/fpna-driver-based-planning-template)
-* **Hardware Execution:** [Interface & Integration (ICD/RTM)](https://github.com/QuantuMaster007/Interface_N_Integration) • [NPI Program Management Playbook](https://github.com/QuantuMaster007/NPI_Program_Management_Playbook)
-* **Strategy:** [Scenario Planning Toolkit](https://github.com/QuantuMaster007/scenario-planning-toolkit) • [Sales Forecasting Models](https://github.com/QuantuMaster007/sales-forecasting-models)
-
----
-
-## 🛠️ Technical Stack
-
-### Languages & Data
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-
-### DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub_Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+| 💰 Financial Ops & CapEx | 🛠️ Hardware & NPI | 📈 Strategy & Forecasting |
+| :--- | :--- | :--- |
+| [CapEx Forecasting Engine](https://github.com/QuantuMaster007/capex-forecasting-engine) | [Interface & Integration (ICD)](https://github.com/QuantuMaster007/Interface_N_Integration) | [Sales Forecasting Models](https://github.com/QuantuMaster007/sales-forecasting-models) |
+| [Budget vs Actual Automation](https://github.com/QuantuMaster007/bva-dashboard-automation) | [NPI PM Playbook](https://github.com/QuantuMaster007/NPI_Program_Management_Playbook) | [Scenario Planning Toolkit](https://github.com/QuantuMaster007/scenario-planning-toolkit) |
+| [FP&A Driver Planning](https://github.com/QuantuMaster007/fpna-driver-based-planning-template) | [Supply Chain Control Tower](https://github.com/QuantuMaster007/supply-chain-control) | [Mini MLOps Platform](https://github.com/QuantuMaster007/Mini-ML_Ops_Platform) |
 
 ---
 
-## 📫 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sourabh232/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/QuantuMaster007)
+## 🛠️ Technical Ecosystem
+
+### 💻 Languages & Data Engineering
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+
+### ⚙️ DevOps & MLOps
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![MLflow](https://img.shields.io/badge/mlflow-%23d50000.svg?style=for-the-badge&logo=mlflow&logoColor=white)
+
+---
+
+## 📊 My GitHub Impact
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=QuantuMaster007&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="45%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=QuantuMaster007&layout=compact&theme=tokyonight&hide_border=true" width="38%" />
+</p>
+
+---
+
+<div align="center">
+  <p><i>Leading hardware programs with the precision of a software stack.</i></p>
+  <b>Let's build the future of manufacturing.</b>
+</div>
