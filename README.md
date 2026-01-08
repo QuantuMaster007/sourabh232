@@ -66,7 +66,7 @@ I lead **end-to-end hardware and advanced manufacturing programs**, translating 
  </tr>
 </table>
 
-> **Note:** If a preview GIF doesn’t show yet, add it to the repo at: `docs/images/dashboard_preview.gif`
+
 
 ---
 
